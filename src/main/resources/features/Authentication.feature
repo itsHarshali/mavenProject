@@ -33,7 +33,7 @@ Given: User Click on sign up button
 And: User click on the "generate OTP" button
 Then: User get message "you need to first enter phone number"
 
-Example scenario:
+//Example scenario:
 
 Feature: Testing login feature for application using OTP
 Scenario: login with valid OTP
@@ -42,4 +42,4 @@ And: User enters his phone number
 And: clicks on the "generate OTP" button
 When: User receives the OTP
 And: User enters the same OTP
-Then: User should be able to login to the application.
+Then User should be able to login to the application.
